@@ -11,6 +11,8 @@ server.
 
 This system creates an encrypted socket tunnel between the sender and the reciever device.
 
+![SOCKET](https://user-images.githubusercontent.com/40358283/106638255-f75b2980-6583-11eb-8e07-36f826166155.JPG)
+
 ## Client Side
 
 * On the client side, there is a process that listens to one or more TCP
@@ -31,6 +33,8 @@ stream and relay it to the socket tunnel server’s listening port.
 and relaying any incoming data to a predefined local port or to any third party
 service.
 
+![fig2ssl](https://user-images.githubusercontent.com/40358283/106638351-13f76180-6584-11eb-842b-2328ab216e08.JPG)
+
 ## Application Logic
 
 * Both peers – socket tunnel client and server – are actually acting as both client and
@@ -42,3 +46,7 @@ communication from the client, but also relay that data to local or remote servi
 
 * All communication between the tunnel nodes – client and server - are
 encrypted using SSL/TLS. 
+
+## Development Environment
+
+* Coding language is Java and Eclipse is used as an IDE.
